@@ -1,0 +1,50 @@
+[
+  {
+    "content": "Restore sipro repo into /app: files, .env (JWT_SECRET), python+node deps, services running, DB seeded",
+    "status": "completed"
+  },
+  {
+    "content": "Reproduce baseline: run poc_47.py + run_all_gates.sh, capture exact failures",
+    "status": "completed"
+  },
+  {
+    "content": "Fix forensic_audit HIGH (payment_intakes.created_by non-user) + endpoint sweep 400 on /labor/attendance/diary-check",
+    "status": "completed"
+  },
+  {
+    "content": "Fix business invariant tie-out 2-1400: GL journal now points to receipt (not deal) + POC purge no longer orphans journals",
+    "status": "completed"
+  },
+  {
+    "content": "Phase 47 Frontend 47A: Rekonsiliasi Bank tab in FinancePage (import, txn table, suggest, match/unmatch/ignore, reconciliation summary)",
+    "status": "in_progress"
+  },
+  {
+    "content": "Phase 47 Frontend 47B: Portal bukti transfer upload + finance verify/reject panel",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 47 Frontend 47C: Penawaran (quotation) tab in LeadProfilePage + simulate/PDF/send/convert/approve",
+    "status": "pending"
+  },
+  {
+    "content": "Phase 47 Frontend 47D: Absensi & Upah panel in /build Lapangan + payroll approve/pay in /finance",
+    "status": "pending"
+  },
+  {
+    "content": "Fase 3 gates: verify_bank_recon.py, verify_portal_proof.py, verify_quotation_labor.py + register (33 gates)",
+    "status": "pending"
+  },
+  {
+    "content": "Fase 3: scripts/mutasi_47.py (12-18 mutations) all caught",
+    "status": "pending"
+  },
+  {
+    "content": "End-to-end testing via testing_agent_v3 (backend + frontend, all Phase 47 user stories)",
+    "status": "pending"
+  },
+  {
+    "content": "Update docs: plan.md, test_result.md, CODEBASE_MAP.md, memory/test_credentials.md",
+    "status": "pending"
+  }
+]
